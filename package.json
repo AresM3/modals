@@ -1,13 +1,22 @@
 {
-  "name": "modals",
-  "version": "0.0.1",
+  "name": "@m3team/modals",
+  "scripts": {
+    "build": "ng build modals --prod"
+  },
+  "author": {
+    "email": "ares.bagatin@m3team.it",
+    "name": "Ares Bagatin"
+  },
+  "version": "1.0.4",
   "peerDependencies": {
     "@angular/common": "^11.0.0",
     "@angular/core": "^11.0.0",
     "@angular/cdk": "^11.0.0",
+    "@angular/forms": "^11.0.0",
     "@angular/material": "^11.0.0",
     "@m3team/axios-requests": "^1.0.1",
     "@m3team/api-config": "^0.0.1",
+    "@m3team/paged-tables": "^1.0.5",
     "rxjs": "^6.6.0"
   },
   "dependencies": {
@@ -17,9 +26,11 @@
     "@angular/common": "^11.0.0",
     "@angular/core": "^11.0.0",
     "@angular/cdk": "^11.0.0",
+    "@angular/forms": "^11.0.0",
     "@angular/material": "^11.0.0",
     "@m3team/axios-requests": "^1.0.1",
     "@m3team/api-config": "^0.0.1",
+    "@m3team/paged-tables": "^1.0.5",
     "rxjs": "^6.6.0"
   }
 }

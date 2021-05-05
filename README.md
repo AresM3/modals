@@ -1,24 +1,13 @@
 # Modals
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+Questa libreria gestisce la creazione dei modals relativi ad un modello. 
 
-## Code scaffolding
+I modals gestiti sono 3: 
+* Info: **_InfoModal_**
+* Form: **_FormModal_** (può gestire sia la creazione che la modifica dei modelli)
+* Delete: **_DeleteModal_**
 
-Run `ng generate component component-name --project modals` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project modals`.
-> Note: Don't forget to add `--project modals` or else it will be added to the default project in your `angular.json` file. 
+In grassetto son specificate le relative classi
 
-## Build
+Per creare i modals si necessita di creare un manager relativo al modello come spiegato in **PagedTables**.
 
-Run `ng build modals` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build modals`, go to the dist folder `cd dist/modals` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test modals` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
