@@ -32,5 +32,8 @@
     "@m3team/api-config": "^0.0.1",
     "@m3team/paged-tables": "^1.0.5",
     "rxjs": "^6.6.0"
+  },
+  "publishConfig": {
+    "registry": "http://152.228.160.213:4873"
   }
 }
